@@ -23,6 +23,10 @@
     color: var(--desaturated-blue);
 }
 
+.annual{
+    font-size: 11px!important;
+}
+
 .text-button{
     color: var(--bright-blue);
 }
