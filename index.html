@@ -26,7 +26,8 @@
     }
 
     body {
-      background-color: hsl(225, 100%, 98%);
+      background: url(./images/pattern-background-desktop.svg) no-repeat, #E1E9Ff;
+      background-size: contain;
       min-height: 100vh;
       display: grid;
       place-items: center;
@@ -46,20 +47,20 @@
         You can now listen to millions of songs, audiobooks, and podcasts on any
         device anywhere you like!
       </p>
-      
+
       <div class="container mt-4 bg-yellow-200 w-9/12 lg:h-20 h-16 rounded-2xl grid grid-cols-12 items-center ">
         <div class="circle rounded-full bg-green-400 w-10 h-10 grid place-items-center col-span-3 m-auto">
           <i class="fa-solid fa-music"></i>
         </div>
         <div class="col-span-4">
           <p class="lg:text-md text-sm text-black font-extrabold text-primary">Annual Plan</p>
-          <p class="lg:text-base text-sm text-secondary">$59.99/year</p> 
+          <p class="lg:text-base text-sm text-secondary">$59.99/year</p>
         </div>
         <div class="col-span-5 m-auto lg:text-md text-sm font-bold text-button ">
-          <a class="active:underline change-button" href="">Change</a> 
+          <a class="active:underline change-button" href="">Change</a>
         </div>
       </div>
-      
+
       <button class="btn-pay mt-6 text-white w-9/12 py-3 rounded-xl font-bold ">Proceed to Payment</button>
       <button class="btn-cancel my-4 py-3 w-9/12 font-bold text-center ">Cancel Order</button>
     </div>
